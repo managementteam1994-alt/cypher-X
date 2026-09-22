@@ -1,0 +1,30 @@
+{
+  "name": "cypher-x-md",
+  "version": "3.0.0",
+  "description": "WhatsApp group management & utility bot (multi-session)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node scripts/patch-baileys.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.16.0",
+    "@whiskeysockets/baileys": "npm:@innovatorssoft/baileys@7.4.7",
+    "axios": "^1.20.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "@distube/ytdl-core": "^4.15.9",
+    "yt-search": "^2.13.1",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "allowScripts": {
+    "@google/genai@2.16.0": true,
+    "protobufjs@7.6.5": true,
+    "@whiskeysockets/baileys": true
+  }
+}
